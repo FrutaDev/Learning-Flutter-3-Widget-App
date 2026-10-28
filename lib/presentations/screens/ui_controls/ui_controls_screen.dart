@@ -56,7 +56,6 @@ class _UiControlsViewState extends State<_UiControlsView> {
 
                   setState(() {
                     selectedTransportation = value ?? Transportation.boat;
-                    print("value: $selectedTransportation");
                   });
                 },
                 child: Column(
