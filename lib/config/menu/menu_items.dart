@@ -16,6 +16,12 @@ class MenuItems {
 
 const appMenuItems = <MenuItems> [
   MenuItems(
+      item: 'Global Counter Riverpod Managed',
+      subItem: "Estado global manejado con riverpod",
+      link: '/global-counter',
+      icon: Icons.real_estate_agent_outlined
+  ),
+  MenuItems(
       item: 'Botones',
       subItem: 'Varios botones en Flutter',
       link: '/buttons',
@@ -62,5 +68,11 @@ const appMenuItems = <MenuItems> [
       subItem: "Listas infinitas y pull to refresh",
       link: '/infinite-scroll',
       icon: Icons.list_alt_outlined
+  ),
+  MenuItems(
+      item: 'Theme Changer',
+      subItem: "Cambiar el color del tema",
+      link: '/theme-changer',
+      icon: Icons.color_lens_outlined
   ),
 ];

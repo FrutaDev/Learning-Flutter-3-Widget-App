@@ -10,7 +10,7 @@ class SnackBarScreen extends StatelessWidget {
 
     ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-            content: Text("Hola mundo"),
+          content: Text("Hola mundoo"),
             action: SnackBarAction(label: "Ok", onPressed: () {}),
             duration: Duration(seconds: 2),
         )
